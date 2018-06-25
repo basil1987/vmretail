@@ -5,6 +5,7 @@
 		<fileset dir="WebContent/WEB-INF/lib">
 			<include name="*.jar"/>
 		</fileset>
+		<pathelement location="/var/lib/jenkins/workspace/addition/build/main/addition.jar">
 	</path>
 	
 	<target name="init">
